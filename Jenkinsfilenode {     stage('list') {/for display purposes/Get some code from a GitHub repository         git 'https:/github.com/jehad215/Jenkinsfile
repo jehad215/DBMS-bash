@@ -1,8 +1,0 @@
-node {
-    stage('list') { // for display purposes
-        // Get some code from a GitHub repository
-        git 'https://github.com/jehad215/DBMS-bash.git'
-        sh 'ls'
-    }
-   
-}
